@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>ListDo</title>
+<link rel="stylesheet" href="style.css" >
+
+<link rel="apple-touch-icon" sizes="any" href="images/icon.png">
+<link rel="icon" type="image/png" sizes="any" href="images/icon.png">
+<link rel="manifest" href="manifest.webmanifest" />
+<script>navigator.serviceWorker.register("service-worker.js")</script> 
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>ListDo</h1>
+    <p>List tasks and do them immediately.</p>
+    <!-- <div id = "counter-container">
+      <span id = "counter"></span>
+    </div> -->
+  </div>
+  <div id="myDIV">
+    <form class="add-form" onsubmit="newElement()">
+      <input autofocus maxlength="35" onchange="addTask2()" type="text" id="task-input" placeholder="Add item to do...">
+      <!-- <span onclick="newElement()" class="addBtn">Add</span> -->
+    </form>
+  </div>
+
+  <ul id="myUL">
+
+  </ul>
+</div>
+
+<!-- <div class="container button">
+  <button class="circle1">Reset</button>
+</div> -->
+
+<script src="script.js" ></script>
+
+</body>
+</html>

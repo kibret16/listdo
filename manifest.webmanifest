@@ -1,0 +1,26 @@
+{
+  "dir": "auto",
+  "lang": "en",
+  "name": "ListDo",
+  "display": "standalone",
+  "short_name": "ListDo",
+  "theme_color": "#333",
+  "description": "Make lists and do them immediately",
+  "orientation": "any",
+  "background_color": "#333",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [{
+      "src": "images/icon.png",
+      "sizes": "any",
+      "type": "image/png"
+  }],
+  "start_url": "/listdo/",
+  "screenshots": [
+      {
+          "src": "images/screenshot.png",
+          "sizes": "2880x1800",
+          "type": "image/png"
+      }
+  ]
+}
