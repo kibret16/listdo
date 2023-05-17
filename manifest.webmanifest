@@ -19,17 +19,17 @@
   "screenshots": [
     {
         "src": "images/phone1.png",
-        "sizes": "2880x1800",
+        "sizes": "784x1394",
         "type": "image/png"
     },
     {
         "src": "images/phone2.png",
-        "sizes": "2880x1800",
+        "sizes": "784x1394",
         "type": "image/png"
     },
     {
         "src": "images/tablet.png",
-        "sizes": "2880x1800",
+        "sizes": "900x1600",
         "type": "image/png"
     }
   ]
