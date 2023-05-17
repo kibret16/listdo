@@ -11,16 +11,21 @@
   "related_applications": [],
   "prefer_related_applications": false,
   "icons": [{
-        "src": "images/icon.png",
-        "sizes": "any",
-        "type": "image/png",
-        "purpose": "any maskable"
+      "src": "images/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    },{
+      "src": "images/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
-        "src": "images/icon.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any maskable"
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
 ],
   "start_url": "./index.html",
