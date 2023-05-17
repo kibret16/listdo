@@ -17,10 +17,20 @@
   }],
   "start_url": "/listdo/",
   "screenshots": [
-      {
-          "src": "images/screenshot.png",
-          "sizes": "2880x1800",
-          "type": "image/png"
-      }
+    {
+        "src": "images/phone1.png",
+        "sizes": "2880x1800",
+        "type": "image/png"
+    },
+    {
+        "src": "images/phone2.png",
+        "sizes": "2880x1800",
+        "type": "image/png"
+    },
+    {
+        "src": "images/tablet.png",
+        "sizes": "2880x1800",
+        "type": "image/png"
+    },
   ]
 }
