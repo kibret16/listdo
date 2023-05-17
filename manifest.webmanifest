@@ -13,15 +13,17 @@
   "icons": [{
         "src": "images/icon.png",
         "sizes": "any",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any maskable"
     },
     {
         "src": "images/icon.png",
         "sizes": "512x512",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any maskable"
     }
 ],
-  "start_url": "/",
+  "start_url": "./index.html",
   "screenshots": [
     {
         "src": "images/phone1.png",
